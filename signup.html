@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="navStyle.css" />
+    <link rel="stylesheet" href="signUpStyle.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <!-- <h1>Green Taxi</h1> -->
+        <img src="IMAGES\weblogo.jpg" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Booking.html">Booking</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="AboutUs.html">About US</a></li>
+          <li><a style="color: green" href="signup.html">Sign Up</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1>Sign Up</h1>
+    <div class="formDiv">
+      <form action="get" class="SignUpForm">
+        <table>
+          <tr>
+            <td>
+              Full Name <br />
+              <input type="text" name="personName" />
+            </td>
+            <td>
+              UserName <br />
+              <input type="text" name="userName" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              Email <br />
+              <input type="email" name="mailId" />
+            </td>
+            <td>
+              Phone Number <br />
+              <input type="text" name="mobileNumber" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              Password <br />
+              <input type="password" name="password1" />
+            </td>
+            <td>
+              Confirm Password <br />
+              <input type="password" name="password2" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              Gender <br />
+              <input type="radio" name="gender" />Male &nbsp;
+              <input type="radio" name="gender" />Female
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center">
+              <input
+                type="button"
+                value="Register"
+                name="registerBtn"
+                id="register"
+                onclick="signUpPopup()"
+              />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <br />
+
+    <footer>
+      <div class="green-taxi">
+        <h1>About Green Taxi</h1>
+        <ul class="detail">
+          <li><a href="index.html">Home</a></li>
+          <br />
+          <li><a href="Booking.html">Booking</a></li>
+          <br />
+          <li><a href="Contact.html">Contact</a></li>
+          <br />
+          <li><a href="AboutUs.html">About US</a></li>
+        </ul>
+      </div>
+      <div class="green-taxi">
+        <h1>Info</h1>
+        <ul class="detail">
+          <li><a href="#">Become a Driver</a></li>
+          <br />
+          <li><a href="#">Privacy and Policy</a></li>
+          <br />
+          <li><a href="#">Terms and Condition</a></li>
+        </ul>
+      </div>
+
+      <div class="green-taxi">
+        <h1>Availability</h1>
+        <ul>
+          <li>
+            <a href="#"
+              ><img src="IMAGES/play-store-white.svg" alt="play-store"
+            /></a>
+            &nbsp;
+            <a href="#"
+              ><img src="IMAGES\app-store-white.svg" alt="app-store"
+            /></a>
+          </li>
+        </ul>
+        <h1>Get Connect With Us</h1>
+        <ul>
+          <li>
+            <a href="#"
+              ><img
+                src="IMAGES\fb-logo.png"
+                alt="facebook"
+                width="30px"
+                height="30px"
+            /></a>
+            &nbsp;
+            <a href="#"
+              ><img
+                src="IMAGES\whatsapp.png"
+                alt="whatsapp"
+                width="30px"
+                height="30px"
+            /></a>
+            &nbsp;
+            <a href="#"
+              ><img
+                src="IMAGES\instagram.png"
+                alt="instagram"
+                width="30px"
+                height="30px"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="../WAD_JAVA_PROJECT/script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Booking</title>
+    <link rel="stylesheet" href="navStyle.css">
+    <link rel="stylesheet" href="bookingStyle.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+        <!-- <h1>Green Taxi</h1> -->
+        <img src="IMAGES\weblogo.jpg">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a style="color: green;" href="Booking.html">Booking</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="AboutUs.html">About US</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <div class="main-box">
+        <div class="info">
+            <h1>CONVINIENT-BOOKING, <br> ON-TIME PICK-UP</h1>
+            <h2>Greeen Taxi Provides a Seamless and Convinient Booking of Cabs . Enjoy Your Door Step Pick Up</h3>
+        </div>
+        <div class="info-img">
+            <img src="IMAGES\OLAA.jpg" class="info-logo">
+        </div>
+    </div>
+    <br>
+
+    <div class="form-container">
+        <h1>Start Booking</h1>
+ 
+        <div class="book-form">
+            <form action="get">
+                <table>
+                    <tr>
+                        <td>Name <br> <input type="text"> </td>
+                        <td>Email Id <br> <input type="email"> </td>
+                    </tr>
+
+                    <tr>
+                        <td>Mobile Number <br> <input type="text"> </td>
+                        <td>Pick Up Date <br> <input type="date"> </td>
+                    </tr>
+
+                    <tr>
+                        <td>Pick Up Time <br> <input type="time"> </td>
+                        <td>Pick Up City <br> <input type="text"> </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">Drop Off City <br> <input type="text" > </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">Comments <br> <textarea rows="2" cols="50"></textarea> </td>
+                    </tr>
+
+                    <tr>
+                        <td align="center" colspan="2"><input type="button" value="Book Now" id="bookBtn" onclick="return popup()"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <br>
+
+
+
+
+    <footer>
+        <div class="green-taxi">
+            <h1>About Green Taxi</h1>
+            <ul class="detail">
+                <li><a href="index.html">Home</a></li>
+                <br>
+                <li><a href="Booking.html">Booking</a></li>
+                <br>
+                <li><a href="Contact.html">Contact</a></li>
+                <br>
+                <li><a href="AboutUs.html">About US</a></li>
+            </ul>
+        </div>
+        <div class="green-taxi">
+            <h1>Info</h1>
+            <ul class="detail">
+                <li><a href="#">Become a Driver</a></li>
+                <br>
+                <li><a href="#">Privacy and Policy</a></li>
+                <br>
+                <li><a href="#">Terms and Condition</a></li>
+            </ul>
+        </div>
+
+        <div class="green-taxi">
+            <h1>Availability</h1>
+            <ul>
+                <li><a href="#"><img src="IMAGES/play-store-white.svg" alt="play-store"></a> &nbsp; <a href="#"><img src="IMAGES\app-store-white.svg" alt="app-store"></a></li>
+                
+            </ul>
+            <h1>Get Connect With Us</h1>
+            <ul>
+                <li><a href="#"><img src="IMAGES\fb-logo.png" alt="facebook" width="30px" height="30px"></a> &nbsp; <a href="#"><img src="IMAGES\whatsapp.png" alt="whatsapp" width="30px" height="30px"></a> &nbsp; <a href="#"><img src="IMAGES\instagram.png" alt="instagram" width="30px" height="30px"></a></li>
+                
+            </ul>
+        </div>
+
+    </footer>
+    <script src="../WAD_JAVA_PROJECT/script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>

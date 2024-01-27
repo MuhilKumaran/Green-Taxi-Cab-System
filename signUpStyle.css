@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    color:midnightblue;
+}
+.SignUpForm{
+    display: block;
+    margin: 0 450px;
+}
+.SignUpForm td{
+padding: 10px 30px;
+font-size: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.SignUpForm table{
+   border-radius: 20px;
+    
+    background-color:rgb(0, 204, 255);
+}
+#register{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    color:black ;
+    background-color: white;
+    cursor: pointer;
+}

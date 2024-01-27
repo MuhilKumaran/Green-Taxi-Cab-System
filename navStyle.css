@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    background-color:honeydew;
+    color: green;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    position: sticky;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    font-size: x-large;
+    float: left;
+    padding:10px 30px;
+}
+li a:hover{
+    color: green; 
+}
+nav a{
+    color: darkgrey;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    background-color: #525252;
+    justify-content: space-around;
+}
+.green-taxi ul{
+    list-style: none;
+    color: #ffffff;
+}
+.green-taxi ul a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 28px;
+    cursor: pointer;
+}
+.green-taxi ul li :hover{
+    color: rgb(4, 236, 4);
+   
+}
+.green-taxi h1{
+    color: snow;
+}
+
+
+header{
+    top: 0;
+    left: 0;
+    position: sticky;
+}

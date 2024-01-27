@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+
+.loginForm{
+    display: block;
+    margin: 0 550px;
+}
+
+.loginForm td{
+    padding: 10px 30px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.loginForm table{
+    border-radius: 20px;
+     
+     background-color:rgb(0, 204, 255);
+}
+
+#forgetPass ,#signUpNow{
+    text-decoration: none;
+    color: black;
+}
+
+#loginBtn{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    color:black ;
+    background-color: white;
+    cursor: pointer;
+}
+
+.adminLogin{
+    position: relative;
+    margin-left: auto;
+    top: 10px;
+    right: 20px;
+    float: right;
+}
+
+#admin{
+    width: 80px;
+    height: 30px;
+    background-color:dimgrey;
+    /* border: none; */
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,58 @@
+
+.main-box{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.info-logo{
+    width: 300px;
+}
+
+.info{
+    color: #414141;
+}
+
+.form-container h1{
+    text-align: center;
+}
+
+.book-form{
+    margin: 0 450px;
+}
+
+.book-form td{
+    padding: 10px 30px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bookBtn{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    color:black ;
+    background-color: white;
+    cursor: pointer;
+}
+
+.book-form table{
+    border-radius: 20px;
+     
+     background-color:lightseagreen;
+ }
+.popUp{
+    
+    width: 100%;
+    text-align: center;
+}
+/* centering a div in div */
+.OTP{
+    
+    display: inline-block;
+    margin: 0 auto;
+}

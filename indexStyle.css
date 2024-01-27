@@ -1,0 +1,23 @@
+
+.textGif{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 20px;
+}
+.note p{
+    text-indent: 30px;
+    font-style: italic;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.cards p,.note p{
+    font-size: 20px;
+}
